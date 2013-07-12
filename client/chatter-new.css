@@ -51,6 +51,7 @@ h1 {
 #chat-wrapper{
 opacity: 0.95;
 position: relative;
+    margin: 0 335px 0  0;
 }
 
 #sendchat {

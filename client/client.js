@@ -105,18 +105,20 @@ Template.mainPage.rendered = function() {
 	positionFooter();
 
 };
-
+Template.chat.events({
+	"click .banbtn" : function() {
+		Session.set("selected_chat_id", this._id);
+//		console.log(this._id);
+		return true;
+	}
+	
+});
 Template.admin.events({
 	"click .banUserConfirm" : function() {
 		Meteor.call('BanUser', Session.get("selected_chat_id"));
-		// console.log($(event.currentTarget).data("id"));
+//		 console.log($(event.currentTarget).data("id"));
 
 		alert('banned user');
-		return true;
-	},
-	"click .banbtn" : function() {
-		Session.set("selected_chat_id", this._id);
-		// console.log(this._id);
 		return true;
 	}
 });
@@ -170,7 +172,7 @@ Template.mainPage
 		});
 
 function positionFooter() {
-	var chatH = $(window).height() - 376;
+	var chatH = $(window).height() - 356;
 	$('#chat').scrollTop($('#chat')[0].scrollHeight);
 	if (chatH > 392) {
 		$('#chat').height(chatH);
