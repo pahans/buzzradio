@@ -1,0 +1,314 @@
+/* CSS declarations go here */
+body {
+	background: #e9e9e9 url(../img/tiny_grid.png) repeat 0 0;
+}
+
+.navbar .navbar-inner {
+	padding: 0 0; 
+	background: #454545;
+}
+
+.nav {
+	padding: 13px 0;
+}
+
+h1 {
+	height: 0;
+	visibility: hidden;
+	padding: 0;
+	margin: 0;
+}
+
+.group {
+	padding: 5px;
+}
+
+.red {
+	color: red;
+}
+
+.group.selected {
+	background-color: #08c;
+	padding: 5px;
+	border-radius: 5px;
+	color: white;
+}
+
+.cgroup {
+	
+}
+
+.pmessage.btn.btn-primary.span2{
+	padding: 0;
+}
+
+#chat {
+	height: 450px;
+	overflow: auto;
+	margin: 0;
+	padding: 10px;
+}
+#chat-wrapper{
+opacity: 0.95;
+position: relative;
+}
+
+#sendchat {
+	margin: 5px;
+}
+
+.navbar .container {
+	
+}
+.navbar .nav .active>a{
+	color: #fff!important;
+}
+
+#___plusone_0 {
+	margin-top: 22px !important;
+}
+
+.popover-title {
+	font-weight: bold;
+}
+
+#chat-form-wrap {
+	margin: 0;
+}
+
+#footer .well,#twitter-widget-0 body {
+	background: #454545;
+
+}
+
+html,body {
+	height: 100%;
+	/* The html and body elements cannot have any pnavbar navbar-inverseadding or margin. */
+	background-image: url("/img/background.png");
+}
+
+#footer {
+	height: 75px;
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	/* Negative indent footer by it's height */
+	margin: 0 auto -60px;
+}
+
+@media ( min-width : 1200px) {
+	.navbar .container {
+		width: 1170px!important;
+	}
+	#chat {
+	height: 550px;
+	}
+}
+
+.media {
+	margin: 10px 0;
+}
+
+.media-object {
+	height: 45px;
+}
+
+.nav img {
+	height: 30px;
+}
+
+/*#main-wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%; // Negative indent footer by it's height 
+	
+	margin: 0 auto -98px;
+}*/
+/* Lastly, apply responsive CSS fixes as necessary */
+@media ( max-width : 767px) {
+	#footer {
+		margin-left: -20px;
+		margin-right: -20px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+
+.tile{
+	padding: 0!important;
+	margin:0!important;
+	opacity:0.8;
+	border: 1px solid white;
+}
+.flip-container{
+	opacity:1!important;
+}
+.navbar.navbar-inverse{
+	border-bottom: #c10001 4px solid;
+}
+#footer{
+		border-top: #c10001 4px solid;
+	background-color: #333333;
+}
+#footer .credit{
+
+}
+
+.navbar-inner{
+	height: 70px;
+}
+.thumbnails{
+	width: 330px;
+}
+#footer-icons{
+
+height: 60px;
+width: 300px;
+
+
+}
+#footer-icons {
+	list-style: none;
+}
+#footer-icons li a{
+	background-image:url("/img/icons/icons-sprite.png");
+	display: block;
+	border: 0;
+}
+#footer-icons li{
+	float: left;
+}
+
+.sprite-Android:hover{ background-position: 0 0; width: 60px; height: 60px; } 
+.sprite-Android{ background-position: 0 -110px; width: 60px; height: 60px; } 
+.sprite-Chrome:hover{ background-position: 0 -220px; width: 60px; height: 60px; } 
+.sprite-Chrome{ background-position: 0 -330px; width: 60px; height: 60px; } 
+.sprite-Facebook:hover{ background-position: 0 -440px; width: 60px; height: 60px; } 
+.sprite-Facebook{ background-position: 0 -550px; width: 60px; height: 60px; } 
+.sprite-Fb-chat:hover{ background-position: 0 -660px; width: 60px; height: 60px; } 
+.sprite-Fb-chat{ background-position: 0 -770px; width: 60px; height: 60px; } 
+.sprite-Google:hover{ background-position: 0 -880px; width: 60px; height: 60px; } 
+.sprite-Google{ background-position: 0 -990px; width: 60px; height: 60px; } 
+.sprite-Skype:hover{ background-position: 0 -1100px; width: 60px; height: 60px; } 
+.sprite-Skype{ background-position: 0 -1210px; width: 60px; height: 60px; } 
+.sprite-Twitter:hover{ background-position: 0 -1320px; width: 60px; height: 60px; } 
+.sprite-Twitter{ background-position: 0 -1430px; width: 60px; height: 60px; } 
+.sprite-Windows:hover{ background-position: 0 -1540px; width: 60px; height: 60px; } 
+.sprite-Windows{ background-position: 0 -1650px; width: 60px; height: 60px; } 
+.sprite-YouTube:hover{ background-position: 0 -1760px; width: 60px; height: 60px; } 
+.sprite-YouTube{ background-position: 0 -1870px; width: 60px; height: 60px; } 
+
+
+/* SKype Start */
+#SkypeButton_Dropdown_buzzradiolk_1_paraElement img{
+	margin: 0!important;
+
+}
+#SkypeButton_Dropdown_buzzradiolk_1_paraElement{
+		background-color: white;
+}
+	
+
+    .skypeUl{
+     	display: none;
+		position: absolute;
+		margin-top: -27px;
+		width: 50px;
+		background-color: white;
+		color: rgb(0, 175, 240);
+		list-style: none;5px;
+		margin-left: -40px;
+      	height:120px
+    }
+
+    .skypeUl li{
+      display: inline;
+      margin-left: 10px
+    }
+
+/* SKype End */
+
+/* flip card Start*/
+
+.flip-container {
+	-webkit-perspective: 1000;
+	-moz-perspective: 1000;
+	perspective: 1000;
+}
+.flip-container:hover .flipper, .flip-container.hover .flipper, #flip-toggle.flip .flipper {
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+}
+.flip-container, .front, .back {
+
+}
+.flipper {
+	-webkit-transition: 0.6s;
+	-webkit-transform-style: preserve-3d;
+	-moz-transition: 0.6s;
+	-moz-transform-style: preserve-3d;
+	transition: 0.6s;
+	transform-style: preserve-3d;
+	position: relative;
+}
+.front, .back {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.front {
+}
+.thumbnails > li.tile{
+	background:none!important;
+}
+.flipper{
+	display: block;
+	height: 100%;
+}
+
+.back {
+	background: lightblue;
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+}
+/* flip card end*/
+
+#login-dropdown-list {
+left: -150px;
+}
+#ffmp3parsedmetadata{
+	width:400px; margin-top:2px; font-weight:bold;position: absolute;
+margin-top: 0px;
+margin-left: 40px;
+}
+.playlist{
+	position:absolute;
+	margin-top: -3px;
+}
+#songRequestModal{
+	width: 700px; 
+	height: 650px;
+}
+
+#bestweb{
+	position:absolute;
+	right: 33px;
+	top:64px;
+	
+}
+#cadmuslab{
+	margin:20px 0 auto;
+	
+}
+#footer{
+	background-color: #333333;
+}

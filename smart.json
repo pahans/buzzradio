@@ -1,0 +1,8 @@
+{
+  "packages": {
+    "roles": {},
+    "event-hooks": {},
+    "moment": {},
+    "presence": {}
+  }
+}

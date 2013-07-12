@@ -1,0 +1,33 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "roles": {},
+      "event-hooks": {},
+      "moment": {},
+      "presence": {}
+    },
+    "packages": {
+      "roles": {
+        "git": "https://github.com/alanning/meteor-roles.git",
+        "tag": "v1.0.5",
+        "commit": "a6e0ce33f8dc69a816165c458b138c2acb30ad0e"
+      },
+      "event-hooks": {
+        "git": "https://github.com/BenjaminRH/meteor-event-hooks.git",
+        "tag": "v1.4.0",
+        "commit": "8d0daf1b84622104d3bcdd99fcf791cd08d3a222"
+      },
+      "moment": {
+        "git": "https://github.com/possibilities/meteor-moment.git",
+        "tag": "v1.7.0",
+        "commit": "c64b6ec0e714b9556f4b6643d430b868ba69d3d7"
+      },
+      "presence": {
+        "git": "https://github.com/tmeasday/meteor-presence.git",
+        "tag": "v0.2.0",
+        "commit": "cb103275ba67e524bf3a9cce4ff0b36f03959d1b"
+      }
+    }
+  }
+}

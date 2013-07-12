@@ -1,0 +1,15 @@
+<!--
+## substream skin for ffmp3 [ http://substream.at ]
+## (cc) treefish university, 2010 [ http://treefish.org ]
+
+-->
+<ffmp3-skin folder="player">
+  <bg image="player_bg.png" x="0" y="0" ></bg>
+  <play image="player_button_play.png" x="10" y="2" clickimage="player_button_play_pressed.png" />
+  <stop image="player_button_stop.png" x="40" y="2" clickimage="player_button_stop_pressed.png" />
+  <volume x="72" y="2" width="96" height="13" 
+      holderImage="player_holder.png"
+	  mode="holder"
+  />
+  <status imagePlay="player_playing.png" imageStop="player_stopped.png" x="72" y="20" />
+</ffmp3-skin>
