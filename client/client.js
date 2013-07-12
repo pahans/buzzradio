@@ -1,3 +1,7 @@
+/*******************************************************************************
+ * Copyright (c) 2013 Pahan Sarathchandra.
+ * All rights reserved. 
+ *******************************************************************************/
 Template.chat.messages = function() {
 	return Messages.find({}, {
 		sort : {

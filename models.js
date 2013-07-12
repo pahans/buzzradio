@@ -1,3 +1,7 @@
+/*******************************************************************************
+ * Copyright (c) 2013 Pahan Sarathchandra.
+ * All rights reserved. 
+ *******************************************************************************/
 Messages = new Meteor.Collection("messages");
 Banned = new Meteor.Collection("banned");
 
