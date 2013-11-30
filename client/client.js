@@ -2,6 +2,8 @@
  * Copyright (c) 2013 Pahan Sarathchandra.
  * All rights reserved. 
  *******************************************************************************/
+Meteor.subscribe('messages');
+Meteor.subscribe('banned');
 Template.chat.messages = function() {
 	return Messages.find({}, {
 		sort : {
@@ -9,9 +11,9 @@ Template.chat.messages = function() {
 		}
 	}).fetch();
 };
-Template.onlineusersCount.count =function(){
-	return Meteor.presences.find({}).count();
-};
+//Template.onlineusersCount.count =function(){
+//	return Meteor.presences.find({}).count();
+//};
 
 Template.chat.currentTime = function() {
 	return new Date();
@@ -139,16 +141,16 @@ Template.mainPage
 				document.getElementsByName("gname")[0].value = "";
 			},
 			"submit, click button.pmessage" : function() {
-				// event.preventDefault();
+//				 event.preventDefault();
 				var tval = document.getElementsByName("message")[0].value;
 				if (Meteor.user()) {
 					if (Meteor.user().profile.name && tval != "") {
 						var pictureUrl = "";
-						if (Meteor.user().services.twitter) {
+						if (Meteor.user().services && Meteor.user().services.twitter) {
 							pictureUrl = Meteor.user().services.twitter.profile_image_url;
-						} else if (Meteor.user().services.google) {
+						} else if (Meteor.user().services && Meteor.user().services.google) {
 							pictureUrl = Meteor.user().services.google.picture;
-						} else if (Meteor.user().services.facebook) {
+						} else if ( Meteor.user().services && Meteor.user().services.facebook) {
 							pictureUrl = "https://graph.facebook.com/"
 									+ Meteor.user().services.facebook.id
 									+ "/picture";

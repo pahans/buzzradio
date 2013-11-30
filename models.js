@@ -18,7 +18,6 @@ Banned.allow({
 
 Messages.allow({
 	insert : function(userId, message) {
-
 		if (userId == null) {
 			return false;
 		}
@@ -28,6 +27,19 @@ Messages.allow({
 			return false;
 		} else {
 			message.createdAt = new Date();
+			
+			var pictureUrl = "";
+			if (Meteor.user().services && Meteor.user().services.twitter) {
+				pictureUrl = Meteor.user().services.twitter.profile_image_url;
+			} else if (Meteor.user().services && Meteor.user().services.google) {
+				pictureUrl = Meteor.user().services.google.picture;
+			} else if ( Meteor.user().services && Meteor.user().services.facebook) {
+				pictureUrl = "https://graph.facebook.com/"
+						+ Meteor.user().services.facebook.id
+						+ "/picture";
+			}
+			message.picture = pictureUrl;
+			
 			return true;
 		}
 

@@ -110,6 +110,12 @@ html,body {
 	}
 }
 
+@media (max-width:978px){
+	#main-wrapper{
+
+	}
+}
+
 .media {
 	margin: 10px 0;
 }

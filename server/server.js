@@ -12,7 +12,7 @@ Meteor
 						sort : {
 							createdAt : -1
 						},
-						skip : 150
+						skip : 75
 					});
 					todel.forEach(function(message) {
 						Messages.remove({
@@ -41,7 +41,7 @@ Meteor
 										}
 									}
 								});
-								if (user.roles.length > 0) {
+								if (user.roles && user.roles.length > 0) {
 									Roles.addUsersToRoles(id, user.roles);
 								}
 								// console.log("admin awith " + id);

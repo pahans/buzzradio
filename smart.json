@@ -3,6 +3,7 @@
     "roles": {},
     "event-hooks": {},
     "moment": {},
-    "presence": {}
+    "presence": {},
+    "accounts-ui-bootstrap-dropdown": {}
   }
 }
