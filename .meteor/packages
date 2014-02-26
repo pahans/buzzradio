@@ -7,8 +7,11 @@ preserve-inputs
 accounts-base
 accounts-facebook
 accounts-ui
-autopublish
 bootstrap
 accounts-twitter
 accounts-google
 spiderable
+standard-app-packages
+event-hooks
+roles
+apm

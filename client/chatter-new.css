@@ -121,7 +121,8 @@ html,body {
 }
 
 .media-object {
-	height: 45px;
+	height: 50px;
+	border-radius: 25px;
 }
 
 .nav img {

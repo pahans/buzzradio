@@ -7,6 +7,5 @@ Meteor.publish('messages', function() {
 });
 
 Meteor.publish('banned', function() {
-
 		return Banned.find({});
 });

@@ -5,14 +5,16 @@
       "roles": {},
       "event-hooks": {},
       "moment": {},
-      "presence": {},
-      "accounts-ui-bootstrap-dropdown": {}
+      "apm": {
+        "git": "git://github.com/arunoda/meteor-apm-client.git",
+        "branch": "master"
+      }
     },
     "packages": {
       "roles": {
         "git": "https://github.com/alanning/meteor-roles.git",
-        "tag": "v1.0.6",
-        "commit": "f81cbf7c765a4ed7e16a580c288db6f10a90856b"
+        "tag": "v1.2.6",
+        "commit": "f2a9058281f8f2fe028767841d7445aadd6893cf"
       },
       "event-hooks": {
         "git": "https://github.com/BenjaminRH/meteor-event-hooks.git",
@@ -20,19 +22,14 @@
         "commit": "ba4f3d7887748458618d29615492906f0c88d31c"
       },
       "moment": {
-        "git": "https://github.com/possibilities/meteor-moment.git",
-        "tag": "v1.7.0",
-        "commit": "c64b6ec0e714b9556f4b6643d430b868ba69d3d7"
+        "git": "https://github.com/acreeger/meteor-moment.git",
+        "tag": "v2.5.1",
+        "commit": "8c9bc5d3fc96705057737cb9743d555417f6e551"
       },
-      "presence": {
-        "git": "https://github.com/tmeasday/meteor-presence.git",
-        "tag": "v0.2.4",
-        "commit": "e59a12739685972c970f70956c4d3e78c31818ec"
-      },
-      "accounts-ui-bootstrap-dropdown": {
-        "git": "https://github.com/erobit/meteor-accounts-ui-bootstrap-dropdown.git",
-        "tag": "v0.6.5.1",
-        "commit": "c8b29d2e7f8611d6dec9d6d23c1c2b94e000b0fb"
+      "apm": {
+        "git": "git://github.com/arunoda/meteor-apm-client.git",
+        "branch": "master",
+        "commit": "6b331e1760c632ef8455883c42f7e8c478fe0e88"
       }
     }
   }

@@ -3,7 +3,8 @@
     "roles": {},
     "event-hooks": {},
     "moment": {},
-    "presence": {},
-    "accounts-ui-bootstrap-dropdown": {}
+    "apm": {
+      "git": "git://github.com/arunoda/meteor-apm-client.git"
+    }
   }
 }
