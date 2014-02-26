@@ -5,10 +5,7 @@
       "roles": {},
       "event-hooks": {},
       "moment": {},
-      "apm": {
-        "git": "git://github.com/arunoda/meteor-apm-client.git",
-        "branch": "master"
-      }
+      "apm": {}
     },
     "packages": {
       "roles": {
@@ -27,9 +24,9 @@
         "commit": "8c9bc5d3fc96705057737cb9743d555417f6e551"
       },
       "apm": {
-        "git": "git://github.com/arunoda/meteor-apm-client.git",
-        "branch": "master",
-        "commit": "6b331e1760c632ef8455883c42f7e8c478fe0e88"
+        "git": "https://github.com/arunoda/meteor-apm-client.git",
+        "tag": "v0.2.4",
+        "commit": "0958a97a6d67960b40ba8db804e7230dd1cf9d98"
       }
     }
   }
