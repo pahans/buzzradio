@@ -5,13 +5,15 @@
       "roles": {},
       "event-hooks": {},
       "moment": {},
-      "apm": {}
+      "apm": {
+        "version": "1.4.6"
+      }
     },
     "packages": {
       "roles": {
         "git": "https://github.com/alanning/meteor-roles.git",
-        "tag": "v1.2.6",
-        "commit": "f2a9058281f8f2fe028767841d7445aadd6893cf"
+        "tag": "v1.2.10",
+        "commit": "7ccb35de0a6cb0c9a0c3666badd04757e39c09a6"
       },
       "event-hooks": {
         "git": "https://github.com/BenjaminRH/meteor-event-hooks.git",
@@ -20,13 +22,13 @@
       },
       "moment": {
         "git": "https://github.com/acreeger/meteor-moment.git",
-        "tag": "v2.5.1",
-        "commit": "8c9bc5d3fc96705057737cb9743d555417f6e551"
+        "tag": "v2.6.0",
+        "commit": "26156df681750fd6e6ed77043eef32b6653ebbdf"
       },
       "apm": {
         "git": "https://github.com/arunoda/meteor-apm-client.git",
-        "tag": "v0.2.4",
-        "commit": "0958a97a6d67960b40ba8db804e7230dd1cf9d98"
+        "tag": "v1.4.6",
+        "commit": "5a185029dd65816c27f988bccedbb77785eab6dc"
       }
     }
   }

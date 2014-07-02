@@ -3,6 +3,6 @@
     "roles": {},
     "event-hooks": {},
     "moment": {},
-    "apm": {}
+    "apm": "1.4.6"
   }
 }

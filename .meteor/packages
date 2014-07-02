@@ -12,6 +12,7 @@ accounts-twitter
 accounts-google
 spiderable
 standard-app-packages
+moment
 event-hooks
 roles
 apm
