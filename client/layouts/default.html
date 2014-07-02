@@ -1,0 +1,198 @@
+<template name="default">
+  <div class="navbar navbar-inverse">
+    <div class="navbar-inner">
+      <div class="container">
+        <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="brand" href="/">
+          <img src="/img/buzzlogoSmall.png" />
+          <h1>Buzzradio</h1>
+        </a>
+        <ul class="nav nav-collapse collapse">
+          <li class="active">
+            <a href="{{pathFor 'home'}}">
+              <img src="/img/icons/home.png" />Home</a>
+          </li>
+          <li>
+            <a href="{{pathFor 'aboutUs'}}">
+              <img src="/img/icons/aboutus.png" />About Us</a>
+          </li>
+
+          <li>
+            <a href="http://blog.buzzradio.lk/" target="_blank">
+              <img src="/img/icons/blog.png" />Blog</a>
+          </li>
+          <li>
+            <a href="{{pathFor 'contactUs'}}">
+              <img src="/img/icons/contact.png" />Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div id="main-wrapper">
+    <div class="container">
+
+      <div class="row-fluid">
+        <div class="pull-right">
+          <ul class="thumbnails">
+
+            <li class="span6 tile tile">
+              <a href="" target="_blank">
+                <a href="#" onclick="_speakpipe_open_widget(); return false;">
+                  <img src="/img/icons/voice-request.png">
+                </a>
+              </a>
+            </li>
+
+            <li class="span6 tile tile ">
+              <a href="https://docs.google.com/spreadsheet/viewform?fromEmail=true&formkey=dE1iVDJZZFVuRWdYQzNFa1FhNWh0cFE6MQ" data-toggle="modal" target="_blank">
+                <img src="/img/req.png">
+              </a>
+            </li>
+
+            <li class="span6 tile tile ">
+              <a href="{{pathFor 'code'}}">
+                <img src="/img/icons/code.png">
+              </a>
+            </li>
+
+            <li class="span12 tile  tile-tripple ">
+              <a href="http://thelastrow.lk/shoutbox/" target="_blank">
+                <img src="/img/shout.png">
+              </a>
+            </li>
+
+            <li class="flip-container span6 tile tile" style="width: 110px;">
+              <div class="flipper">
+                <a href="#" class="front">
+                  <img src="/img/icons/thibuzz.png" />
+                </a>
+
+                <div class="back">
+                  <img src="/img/icons/thibuzzOV.png" />
+                </div>
+              </div>
+            </li>
+            <li class="flip-container span6 tile tile" style="width: 110px;">
+              <div class="flipper">
+                <a href="#" class="front">
+                  <img src="/img/icons/hot.png" />
+                </a>
+                <div class="back">
+                  <img src="/img/icons/hotOV.png" />
+                </div>
+              </div>
+            </li>
+            <li class="flip-container span6 tile tile" style="width: 110px;">
+              <div class="flipper">
+                <a href="#" class="front">
+                  <img src="/img/icons/thebestof.png" />
+                </a>
+                <div class="back">
+                  <img src="/img/icons/thebestofOV.png" />
+                </div>
+              </div>
+            </li>
+            <li class="flip-container span6 tile tile" style="width: 110px;">
+              <div class="flipper">
+                <a href="#" class="front">
+                  <img src="/img/icons/maa-aa-maga.png" />
+                </a>
+                <div class="back">
+                  <img src="/img/icons/maa-aa-magaOV.png" />
+                </div>
+              </div>
+            </li>
+            <li class="flip-container span6 tile tile" style="width: 110px;">
+              <div class="flipper">
+                <a href="#" class="front">
+                  <img src="/img/icons/Classic.png" />
+                </a>
+                <div class="back">
+                  <img src="/img/icons/ClassicOV.png" />
+                </div>
+              </div>
+            </li>
+            <li class="flip-container span6 tile tile" style="width: 110px;">
+              <div class="flipper">
+                <a href="#" class="front">
+                  <img src="/img/icons/CYBER.png" />
+                </a>
+                <div class="back">
+                  <img src="/img/icons/CYBEROV.png" />
+                </div>
+              </div>
+            </li>
+            <li class="flip-container span6 tile tile" style="width: 110px;">
+              <div class="flipper">
+                <a href="#" class="front">
+                  <img src="/img/icons/bolly_show.png" />
+                </a>
+                <div class="back">
+                  <img src="/img/icons/bolly_showOV.png" />
+                </div>
+              </div>
+            </li>
+          </ul>
+          <a href="http://www.bestweb.lk/vote/voteme.php?domain=www.buzzradio.lk" target="_blank">
+            <img src="http://www.bw2014.lk/vote4us.png" alt="logo" width="150" height="150" border="0" align="right" style="margin-top:20px" id="bestweb" />
+          </a>
+        </div>
+        <div class="content well" id="chat-wrapper">
+          <div class="player">
+            <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="190" height="62" bgcolor="#FFFFFF">
+              <param name="movie" value="muses.swf" />
+
+              <param name="flashvars" value="url=http://82.196.0.163:8000/stream.ogg&lang=auto&codec=ogg&volume=100&autoplay=true&traking=false&jsevents=true&title=BuzzRadio&skin=ffmp3-substream.xml" />
+              <param name="wmode" value="transparent">
+              <param name="allowscriptaccess" value="always" />
+              <param name="scale" value="noscale" />
+              <param name="bgcolor" value="#f5f5f5" />
+              <embed src="muses.swf" flashvars="url=http://82.196.0.163:8000/stream.ogg&lang=auto&codec=ogg&volume=75&autoplay=true&traking=false&jsevents=true&title=BuzzRadio&skin=ffmp3-substream.xml" width="180" scale="noscale" height="30" wmode="transparent" bgcolor="#FFFFFF" allowscriptaccess="always" pluginspage="http://www.adobe.com/go/getflash" type="application/x-shockwave-flash" />
+            </object>
+            <a href="http://82.196.0.163:8000/stream.ogg.m3u" target="_blank">
+              <img alt="playlist" src="/img/icons/winamp.png" class="playlist" />
+            </a>
+            <span id="ffmp3parsedmetadata"></span>
+          </div>
+          <div class="row-fluid" id="chat-title-wrap">
+            {{>yield}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="footer">
+    <div class="container">
+      <div class="row-fluid">
+        <span class=" pull-right span6">
+          <ul id="footer-icons">
+            <li>
+              <a href="https://play.google.com/store/apps/details?id=tunein.player" class="sprite-Android"></a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/BuzzRadioLk" target="_blank" class="sprite-Facebook"></a>
+            </li>
+            <li>
+              <a href="http://chat.buzzradio.lk/" class="sprite-Fb-chat" target="_blank"></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/BuzzRadiolk" class="sprite-Twitter" target="_blank"></a>
+            </li>
+            <li>
+              <a href="http://www.youtube.com/user/buzzradiolk" class="sprite-YouTube" target="_blank"></a>
+            </li>
+          </ul>
+        </span>
+        <div id="cadmuslab" class="pull-right span6 muted">
+          ©2013 Buzz Radio Sri Lanka <a href="{{pathFor 'privacy'}}"> Privacy Policy</a>, A web site by <a href="http://cadmuslab.com/" target="_blank"> Cadmuslab </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</template>

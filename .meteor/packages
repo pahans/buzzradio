@@ -3,7 +3,6 @@
 # 'meteor add' and 'meteor remove' will edit this file for you,
 # but you can also edit it by hand.
 
-preserve-inputs
 accounts-base
 accounts-facebook
 accounts-ui
@@ -13,6 +12,10 @@ accounts-google
 spiderable
 standard-app-packages
 moment
-event-hooks
 roles
 apm
+iron-router
+event-hooks
+kadira
+reactive-modal
+fast-render

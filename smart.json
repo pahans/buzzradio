@@ -1,8 +1,10 @@
 {
   "packages": {
     "roles": {},
-    "event-hooks": {},
     "moment": {},
-    "apm": "1.4.6"
+    "iron-router": {},
+    "kadira": {},
+    "reactive-modal": {},
+    "fast-render": {}
   }
 }

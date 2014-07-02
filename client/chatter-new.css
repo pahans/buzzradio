@@ -221,22 +221,22 @@ width: 300px;
 }
 	
 
-    .skypeUl{
-     	display: none;
-		position: absolute;
-		margin-top: -27px;
-		width: 50px;
-		background-color: white;
-		color: rgb(0, 175, 240);
-		list-style: none;5px;
-		margin-left: -40px;
-      	height:120px
-    }
+.skypeUl{
+	display: none;
+	position: absolute;
+	margin-top: -27px;
+	width: 50px;
+	background-color: white;
+	color: rgb(0, 175, 240);
+	list-style: none;
+	margin-left: -40px;
+	height:120px
+}
 
-    .skypeUl li{
-      display: inline;
-      margin-left: 10px
-    }
+  .skypeUl li{
+    display: inline;
+    margin-left: 10px
+  }
 
 /* SKype End */
 
@@ -319,4 +319,8 @@ margin-left: 40px;
 }
 #footer{
 	background-color: #333333;
+}
+#chat-title-wrap {
+border: 1px solid #C0C0C0;
+padding: 15px 0 0 15px;
 }

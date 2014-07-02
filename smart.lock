@@ -3,11 +3,11 @@
   "dependencies": {
     "basePackages": {
       "roles": {},
-      "event-hooks": {},
       "moment": {},
-      "apm": {
-        "version": "1.4.6"
-      }
+      "iron-router": {},
+      "kadira": {},
+      "reactive-modal": {},
+      "fast-render": {}
     },
     "packages": {
       "roles": {
@@ -15,20 +15,35 @@
         "tag": "v1.2.10",
         "commit": "7ccb35de0a6cb0c9a0c3666badd04757e39c09a6"
       },
-      "event-hooks": {
-        "git": "https://github.com/BenjaminRH/meteor-event-hooks.git",
-        "tag": "v1.4.3",
-        "commit": "ba4f3d7887748458618d29615492906f0c88d31c"
-      },
       "moment": {
         "git": "https://github.com/acreeger/meteor-moment.git",
         "tag": "v2.6.0",
         "commit": "26156df681750fd6e6ed77043eef32b6653ebbdf"
       },
-      "apm": {
-        "git": "https://github.com/arunoda/meteor-apm-client.git",
-        "tag": "v1.4.6",
-        "commit": "5a185029dd65816c27f988bccedbb77785eab6dc"
+      "iron-router": {
+        "git": "https://github.com/EventedMind/iron-router.git",
+        "tag": "v0.7.1",
+        "commit": "d1ffb3f06ea4c112132b030f2eb1a70b81675ecb"
+      },
+      "kadira": {
+        "git": "https://github.com/meteorhacks/kadira.git",
+        "tag": "v2.4.5",
+        "commit": "fa9a6446f6efb576953f99c01c03474f56f3852e"
+      },
+      "reactive-modal": {
+        "git": "https://github.com/pahans/reactive-modal.git",
+        "tag": "v0.1.2",
+        "commit": "3ed9319c991c1567b4e9b6a85d33c6d4571aacb2"
+      },
+      "fast-render": {
+        "git": "https://github.com/arunoda/meteor-fast-render.git",
+        "tag": "v0.2.8",
+        "commit": "149984b1aff3a5642a270aff9bd9006872c8302e"
+      },
+      "blaze-layout": {
+        "git": "https://github.com/EventedMind/blaze-layout.git",
+        "tag": "v0.2.4",
+        "commit": "b40e9b0612329288d75cf52ad14a7da64bb8618f"
       }
     }
   }
