@@ -1,7 +1,7 @@
 Router.configure({
   layoutTemplate: 'default',
   // loadingTemplate: 'loading',
-  // notFoundTemplate: 'pageNotFound',
+  notFoundTemplate: 'pageNotFound',
   waitOn: function(){
     return [
     this.subscribe('messages'),
@@ -9,7 +9,10 @@ Router.configure({
   },
   onBeforeAction: [function() {
     document.title = "♪♫♪♫♪. Buzz Radio .♪♫♪♫♪ | Buzzradio.lk | Srilanka's Leading Non Commercial Internet Radio"
-  }]
+  }],
+  onAfterAction: function(){
+    GAnalytics.pageview(this.path);
+  }
 });
 
 Router.map(function(){

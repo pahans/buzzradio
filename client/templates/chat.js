@@ -83,7 +83,7 @@ Template.chat.events({
 });
 
 function positionFooter() {
-  var chatH = $(window).height() - 356;
+  var chatH = $(window).height() - 373;
   $('#chat').scrollTop($('#chat')[0].scrollHeight);
   if (chatH > 392) {
     $('#chat').height(chatH);

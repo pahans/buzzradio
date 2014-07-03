@@ -5,6 +5,7 @@
     "iron-router": {},
     "kadira": {},
     "reactive-modal": {},
-    "fast-render": {}
+    "fast-render": {},
+    "GAnalytics": {}
   }
 }
