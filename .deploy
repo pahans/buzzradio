@@ -1,0 +1,1 @@
+meteor deploy www.buzzradio.lk --settings ../settings.json
