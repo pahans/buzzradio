@@ -4,8 +4,8 @@
     "moment": {},
     "iron-router": {},
     "kadira": {},
-    "reactive-modal": {},
     "fast-render": {},
-    "GAnalytics": {}
+    "GAnalytics": {},
+    "iron-router-active": {}
   }
 }

@@ -12,20 +12,20 @@
           <h1>Buzzradio</h1>
         </a>
         <ul class="nav nav-collapse collapse">
-          <li class="active">
+          <li class="{{isActiveRoute 'home'}}">
             <a href="{{pathFor 'home'}}">
               <img src="/img/icons/home.png" />Home</a>
           </li>
-          <li>
+          <li class="{{isActiveRoute 'aboutUs'}}"> 
             <a href="{{pathFor 'aboutUs'}}">
               <img src="/img/icons/aboutus.png" />About Us</a>
           </li>
 
-          <li>
+          <li class="">
             <a href="http://blog.buzzradio.lk/" target="_blank">
               <img src="/img/icons/blog.png" />Blog</a>
           </li>
-          <li>
+          <li class="{{isActiveRoute 'contactUs'}}">
             <a href="{{pathFor 'contactUs'}}">
               <img src="/img/icons/contact.png" />Contact</a>
           </li>
@@ -138,9 +138,6 @@
               </div>
             </li>
           </ul>
-          <a href="http://www.bestweb.lk/vote/voteme.php?domain=www.buzzradio.lk" target="_blank">
-            <img src="http://www.bw2014.lk/vote4us.png" alt="logo" width="150" height="150" border="0" align="right" style="margin-top:20px" id="bestweb" />
-          </a>
         </div>
         <div class="content well" id="chat-wrapper">
           <div class="player">

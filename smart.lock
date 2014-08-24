@@ -6,9 +6,9 @@
       "moment": {},
       "iron-router": {},
       "kadira": {},
-      "reactive-modal": {},
       "fast-render": {},
-      "GAnalytics": {}
+      "GAnalytics": {},
+      "iron-router-active": {}
     },
     "packages": {
       "roles": {
@@ -28,13 +28,8 @@
       },
       "kadira": {
         "git": "https://github.com/meteorhacks/kadira.git",
-        "tag": "v2.4.5",
-        "commit": "fa9a6446f6efb576953f99c01c03474f56f3852e"
-      },
-      "reactive-modal": {
-        "git": "https://github.com/pahans/reactive-modal.git",
-        "tag": "v0.1.2",
-        "commit": "3ed9319c991c1567b4e9b6a85d33c6d4571aacb2"
+        "tag": "v2.4.7",
+        "commit": "c860e10cbe416ebb3d4999adccd5c486f232f9c6"
       },
       "fast-render": {
         "git": "https://github.com/arunoda/meteor-fast-render.git",
@@ -45,6 +40,11 @@
         "git": "https://github.com/datariot/meteor-ganalytics.git",
         "tag": "v0.2.0",
         "commit": "2d5e48d5cc4c2f88edd40c0b2341d378bd4a702b"
+      },
+      "iron-router-active": {
+        "git": "https://github.com/XpressiveCode/iron-router-active.git",
+        "tag": "v0.2.0",
+        "commit": "1b05aad5325c3dfdb5186b9c288aa53013d767b8"
       },
       "blaze-layout": {
         "git": "https://github.com/EventedMind/blaze-layout.git",

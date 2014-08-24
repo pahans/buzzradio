@@ -1,5 +1,6 @@
 Meteor.methods({
   BanUser : function(chatId) {
+    check(chatId, String)
     var Cchat = Messages.findOne({
       _id : chatId
     });
